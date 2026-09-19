@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-Blue-200: hsl(224, 100%, 95%);
+    --color-Blue-400: hsl(220, 100%, 64%);
+    --color-Blue-600: hsl(228, 100%, 60%);
+    --color-Blue-700: hsl(228, 99%, 58%);
+
+    --font-inter: "inter";
+}
