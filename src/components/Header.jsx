@@ -32,11 +32,11 @@ const Header = () => {
         onClick={() => setMenuOpen(false)}
       />
       <nav
-        className={`fixed w-full py-11 text-[32px] font-medium text-white z-5 bg-Blue-700 transition-all duration-300 ${!menuOpen ? "opacity-0 hidden" : "opacity-100"}`}
+        className={`fixed w-full py-11 text-[32px] font-medium text-white z-5 bg-Blue-700 transition-all duration-300 lg:w-[27.5%] lg:h-full lg:right-0 ${!menuOpen ? "opacity-0 hidden" : "opacity-100"}`}
       >
-        <ul className="flex flex-col justify-center items-center gap-1">
+        <ul className="flex flex-col justify-center items-center gap-1 lg:items-end pr-15">
           {navLinks.map((link) => (
-            <li>
+            <li className="hover:underline">
               <a href="#">{link}</a>
             </li>
           ))}
