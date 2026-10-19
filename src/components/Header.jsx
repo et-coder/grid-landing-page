@@ -23,12 +23,15 @@ const Header = () => {
           <span className="inline-block rounded-full w-[10px] h-[10px] bg-white"></span>
           Bridge Collective
         </div>
-        <button onClick={() => setMenuOpen((prev) => !prev)}>
+        <button
+          className="hover:cursor-pointer"
+          onClick={() => setMenuOpen((prev) => !prev)}
+        >
           <img src={!menuOpen ? menu : close} alt="Menu" />
         </button>
       </div>
       <div
-        className={`${menuOpen ? "opacity-100" : "opacity-0"} fixed bg-black/20 h-screen w-full z-1 transition-opacity ease-in-out duration-300`}
+        className={`${menuOpen ? "opacity-100" : "opacity-0 hidden"} fixed bg-black/20 h-screen w-full z-1 transition-opacity ease-in-out duration-300`}
         onClick={() => setMenuOpen(false)}
       />
       <nav
