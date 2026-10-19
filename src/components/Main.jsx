@@ -15,7 +15,7 @@ const Main = () => {
       {cards.map((card) => (
         <div
           key={card.id}
-          className="flex flex-col justify-between h-[330px] px-5 border-b border-b-white/30 py-6 lg:border-l lg:border-l-white/30"
+          className="flex flex-col justify-between h-[330px] px-5 border-b border-b-white/30 py-6 lg:border-l lg:border-l-white/30 hover:cursor-pointer hover:bg-Blue-400/30"
         >
           <div className="flex justify-between">
             <img src={card.image} alt="" className="w-8" />
