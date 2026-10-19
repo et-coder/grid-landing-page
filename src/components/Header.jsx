@@ -18,7 +18,7 @@ const Header = () => {
   }, [menuOpen]);
   return (
     <header>
-      <div className="relative flex justify-between w-full h-[72px] items-center border-b border-b-white/30 p-5 text-white z-10">
+      <div className="relative flex justify-between w-full h-[72px] items-center border-b border-b-white/30 p-5 text-white z-10 lg:px-10">
         <div className="flex items-center gap-1 text-[14px] font-medium">
           <span className="inline-block rounded-full w-[10px] h-[10px] bg-white"></span>
           Bridge Collective
