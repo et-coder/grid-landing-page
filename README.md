@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](www.frontendmentor.io/solutions/responsive-grid-landing-page-kt7LRVheYK)
+- Live Site URL: [Live site](https://et-coder.github.io/grid-landing-page/)
 
 ## My process
 
